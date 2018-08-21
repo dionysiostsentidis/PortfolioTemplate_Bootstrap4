@@ -22,7 +22,7 @@ npm start
 * Html - Markup Language
 * CSS - Style sheet language
 * Sass - The CSS preprocessor used
-* Javascript - Used just for sidenav
+* Javascript - JQuery
 * Bootstrap - CSS Framework
 * FontAwesome - FontAwesome Icons
 
