@@ -3,8 +3,6 @@ Responsive portfolio template created with Bootstrap 4 and Sass.
 
 ![alt text](https://raw.githubusercontent.com/dionysiostsentidis/PortfolioTemplate_Bootstrap4/master/src/images/mockup.jpg)
 
-WORKING ON README.MD
-
 
 ## Clone
 ```
