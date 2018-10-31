@@ -1,5 +1,5 @@
 # Portfolio - Bootstrap 4
-Responsive portfolio template created with Bootstrap 4 and Sass.
+Responsive portfolio template built with Bootstrap 4 and Sass.
 
 ![alt text](https://raw.githubusercontent.com/dionweb/PortfolioTemplate_Bootstrap4/master/src/images/mockup.jpg?token=AmkViYGXKZTLzU9AwrEoiz8ZFH2yBokJks5bs-0owA%3D%3D)
 
@@ -45,5 +45,5 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Links
-* [Live Preview](https://dionysiostsentidis.github.io/PortfolioTemplate_Bootstrap4/) 
+* [Live Preview](https://dionweb.github.io/PortfolioTemplate_Bootstrap4/) 
 * [DionWeb](http://www.dionweb.me/)
