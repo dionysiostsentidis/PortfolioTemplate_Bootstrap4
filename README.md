@@ -1,7 +1,7 @@
 # Portfolio - Bootstrap 4
 Responsive portfolio template built with Bootstrap 4 and Sass.
 
-![alt text](https://raw.githubusercontent.com/dionweb/PortfolioTemplate_Bootstrap4/master/src/images/mockup.jpg?token=AmkViYGXKZTLzU9AwrEoiz8ZFH2yBokJks5bs-0owA%3D%3D)
+![alt text](https://raw.githubusercontent.com/dionweb/PortfolioTemplate_Bootstrap4/master/mockup.jpg?token=AmkVifl1hWrd2bhSnv-WzvtdxTEekF0xks5b4vXVwA%3D%3D)
 
 
 ## Clone
