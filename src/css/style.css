@@ -14,7 +14,8 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     padding-left: 1em !important;
-    padding-right: 1em !important; }
+    padding-right: 1em !important;
+    outline: 0 !important; }
   .navbar .custom-toggler.navbar-toggler {
     border-color: #ffc107; }
   .navbar .custom-toggler .navbar-toggler-icon {
@@ -35,16 +36,16 @@ li:last-child {
   margin-right: 0; }
 
 li:after {
-  content: '';
+  content: "";
   display: block;
   margin: auto;
-  height: 2px;
+  height: 1px;
   width: 0px;
   background: transparent;
-  transition: width .5s ease, background-color .5s ease; }
+  transition: width 0.5s ease, background-color 0.5s ease; }
 
 li:hover:after {
-  width: 100%;
+  width: calc(100% - 29px);
   background: #ffc107 !important; }
 
 .nav-colored {
@@ -60,7 +61,7 @@ li:hover:after {
     color: #343a40 !important;
     text-decoration: none; }
   .nav-colored li:hover:after {
-    width: 100%;
+    width: 0;
     background: #343a40 !important; }
 
 .nav-transparent {
@@ -101,13 +102,19 @@ li:hover:after {
   height: 87px;
   width: 87px; }
 
+#services .card {
+  transition: 2s ease; }
+
 #services .card:hover {
   background: radial-gradient(circle, #e7ac00, #edb102, #f3b603, #f9bc05, #ffc107);
-  border: none; }
+  border: none;
+  transition: 2s ease; }
   #services .card:hover .card-body p,
   #services .card:hover .card-body h3,
   #services .card:hover .fa {
     color: #fff !important; }
+  #services .card:hover .fa {
+    border: 1px solid #fff !important; }
 
 #blog .card:hover {
   background: radial-gradient(circle, #e7ac00, #edb102, #f3b603, #f9bc05, #ffc107); }
