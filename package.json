@@ -15,7 +15,6 @@
     "popper.js": "^1.14.4"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.13",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
   }
