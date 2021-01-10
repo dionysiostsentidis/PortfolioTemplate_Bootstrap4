@@ -1,12 +1,11 @@
 $warning: #ffc107;
-$warning-grad: radial-gradient(
-  circle,
+$warning-grad: radial-gradient(circle,
   #e7ac00,
   #edb102,
   #f3b603,
   #f9bc05,
-  #ffc107
-);
+  #ffc107);
+
 body {
   overflow-x: hidden;
 }
@@ -22,6 +21,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 999;
+
   .nav-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -29,16 +29,17 @@ body {
     padding-right: 1em !important;
     outline: 0 !important;
   }
+
   .custom-toggler.navbar-toggler {
     border-color: $warning;
   }
+
   .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(225,193,7, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 }
 
-@media (min-width: 576px) {
-}
+@media (min-width: 576px) {}
 
 a:hover {
   color: $warning !important;
@@ -79,13 +80,16 @@ li:hover:after {
   -moz-box-shadow: 0 8px 6px -6px $warning;
   box-shadow: 0 8px 6px -6px $warning;
   font-weight: 600;
+
   .nav-link {
     color: $warning !important;
   }
+
   a:hover {
     color: #343a40 !important;
     text-decoration: none;
   }
+
   li:hover:after {
     width: 0;
     background: #343a40 !important;
@@ -106,6 +110,7 @@ li:hover:after {
   background-size: cover;
   text-align: center;
   color: #fff;
+
   .dark-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
@@ -114,10 +119,12 @@ li:hover:after {
     width: 100%;
     height: 100%;
   }
+
   .wrapper {
     position: relative;
     height: 100vh;
   }
+
   .jumbotron {
     position: absolute;
     top: 50%;
@@ -142,18 +149,22 @@ li:hover:after {
     height: 87px;
     width: 87px;
   }
+
   .card {
     transition: 2s ease;
   }
+
   .card:hover {
     background: $warning-grad;
     border: none;
     transition: 2s ease;
+
     .card-body p,
     .card-body h3,
     .fa {
       color: #fff !important;
     }
+
     .fa {
       border: 1px solid #fff !important;
     }
@@ -171,6 +182,7 @@ li:hover:after {
   textarea {
     min-height: 200px;
   }
+
   input,
   textarea,
   .btn {
@@ -182,24 +194,30 @@ li:hover:after {
 footer {
   background: #202020;
   color: #909090;
+
   .fa {
     font-size: 30px;
   }
+
   ul {
     padding: 0;
     margin: 20px 0;
   }
+
   ul li {
     display: inline-block;
     margin: 0 4px;
   }
+
   ul li a,
   p {
     color: $warning;
   }
+
   ul li a:hover {
     color: #fff !important;
   }
+
   li:hover:after {
     display: none;
   }
