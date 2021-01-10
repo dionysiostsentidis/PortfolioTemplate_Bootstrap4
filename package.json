@@ -8,6 +8,7 @@
   },
   "author": "Tsentidis Dionysios",
   "license": "MIT",
+  "homepage": "https://dionweb.github.io/PortfolioTemplate_Bootstrap4/",
   "dependencies": {
     "bootstrap": "^4.5.3",
     "font-awesome": "^4.7.0",
